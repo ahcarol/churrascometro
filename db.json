@@ -12,6 +12,45 @@
       "carvao": 45,
       "refrigerantes": 9,
       "cerveja": 120
+    },
+    {
+      "id": "39d5",
+      "data": "2024-01-31",
+      "qtdHomens": 22,
+      "qtdMulheres": 34,
+      "qtdCriancas": 5,
+      "qtdPessoas": 61,
+      "carnes": 20.68,
+      "paoDeAlho": 117,
+      "carvao": 61,
+      "refrigerantes": 12.2,
+      "cerveja": 168
+    },
+    {
+      "id": "fa55",
+      "data": "2024-02-08",
+      "qtdHomens": 1,
+      "qtdMulheres": 1,
+      "qtdCriancas": 2,
+      "qtdPessoas": 4,
+      "carnes": 1.12,
+      "paoDeAlho": 6,
+      "carvao": 4,
+      "refrigerantes": 0.8,
+      "cerveja": 6
+    },
+    {
+      "id": "aa69",
+      "data": "2024-01-31",
+      "qtdHomens": 11,
+      "qtdMulheres": 11,
+      "qtdCriancas": 11,
+      "qtdPessoas": 33,
+      "carnes": 10.120000000000001,
+      "paoDeAlho": 55,
+      "carvao": 33,
+      "refrigerantes": 6.6,
+      "cerveja": 66
     }
   ]
 }
