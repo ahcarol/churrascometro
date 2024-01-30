@@ -1,0 +1,73 @@
+body {
+    font-family: Poppins, sans-serif;
+    background-color: #41373C; /* Cor de fundo da página */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo da Caixa */
+.container {
+    background: rgba(255, 255, 255, 0.25); /* Efeito de vidro */
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.5); /* Borda branca */
+    padding: 30px; /* Espaçamento uniforme ao redor da caixa */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Espaçamento entre elementos */
+    width: auto;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Espaçamento entre os inputs e labels */
+    width: 100%;
+    margin-bottom: 20px; /* Espaçamento entre as linhas de inputs */
+}
+
+.label-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-basis: 48%; /* Largura de cada label-input */
+}
+
+label {
+    color: #FFF; /* Cor do texto */
+    margin-bottom: 5px; /* Espaço entre label e input */
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* Estilo do Botão */
+button {
+    background-color: #FB9E50; /* Cor do botão */
+    color: white;
+    padding: 12px 20px; /* Ajuste no preenchimento para aumentar o botão */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%; /* Botão ocupa a mesma largura que os inputs */
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #e89c45; /* Cor ao passar o mouse */
+}
